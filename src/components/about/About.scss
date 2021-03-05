@@ -1,0 +1,42 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  h2 {
+    letter-spacing: 2px;
+    padding-top: 2em;
+  }
+  .intro {
+    .about__img {
+      height: 200px;
+    }
+
+    h3 {
+      letter-spacing: 2px;
+      padding-bottom: 0.3em;
+    }
+
+    p {
+      letter-spacing: 2px;
+      font-style: italic;
+      font-weight: 100;
+    }
+  }
+
+  .biography {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+    h5 {
+      font-size: 1.7em;
+      padding-bottom: 0.5em;
+    }
+
+    p {
+      font-weight: 500;
+    }
+  }
+}

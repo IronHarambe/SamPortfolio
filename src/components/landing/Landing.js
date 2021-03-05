@@ -7,7 +7,7 @@ import "./Landing.scss";
 
 function Landing() {
   return (
-    <div className="landing" id="#home">
+    <div className="landing" id="home">
       <div className="landing__text">
         <h1>
           Hi<span className="comma">,</span> I'm

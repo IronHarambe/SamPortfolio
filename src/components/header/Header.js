@@ -30,7 +30,7 @@ function Header() {
           <Nav className="mr-auto"></Nav>
           <Nav>
             <Nav.Link href="#home">HOME</Nav.Link>
-            <Nav.Link href="#home">ABOUT</Nav.Link>
+            <Nav.Link href="#about">ABOUT</Nav.Link>
             <Nav.Link href="#projects">PROJECTS</Nav.Link>
             <Nav.Link href="#skill">SKILLS</Nav.Link>
           </Nav>
