@@ -1,0 +1,24 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin: 2em;
+  }
+
+  .sections {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 40px;
+
+    .front__end,
+    .other {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
