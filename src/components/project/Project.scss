@@ -1,0 +1,13 @@
+.project {
+  height: 100vh;
+  h2 {
+    padding: 1.5em;
+  }
+  height: 100vh;
+  .project__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+}
