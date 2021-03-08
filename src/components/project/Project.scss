@@ -1,13 +1,17 @@
 .project {
-  height: 100vh;
+  background-color: aquamarine;
+
   h2 {
-    padding: 1.5em;
+    padding: 1em;
   }
-  height: 100vh;
+
   .project__cards {
+    min-height: 100vh;
     display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
     justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
   }
 }
