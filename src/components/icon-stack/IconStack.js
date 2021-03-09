@@ -27,7 +27,7 @@ function IconStack() {
 
       {/* Link for doc example:  href="/SamsonJose_Resume.pdf" */}
 
-      <a href="" target="_blank" rel="noopener noreferrer">
+      <a href="#home" target="_blank" rel="noopener noreferrer">
         <PictureAsPdfIcon></PictureAsPdfIcon>
       </a>
     </div>
