@@ -1,4 +1,5 @@
 import React from "react";
+import IconStack from "../icon-stack/IconStack";
 
 import "./About.scss";
 
@@ -11,6 +12,7 @@ function About() {
         <img src="/images/me.jpg" alt="about__img" className="about__img" />
         <h3>Samson Jose</h3>
         <p>B.I.C.T Graduate</p>
+        <IconStack></IconStack>
       </div>
 
       <div className="biography">
