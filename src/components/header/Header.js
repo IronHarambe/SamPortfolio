@@ -14,6 +14,7 @@ function Header() {
         expand="sm"
         bg="dark"
         variant="dark"
+        fixed="top"
         className="nav"
       >
         {/* Logo */}
@@ -32,7 +33,7 @@ function Header() {
             <Nav.Link href="#home">HOME</Nav.Link>
             <Nav.Link href="#about">ABOUT</Nav.Link>
             <Nav.Link href="#projects">PROJECTS</Nav.Link>
-            <Nav.Link href="#skill">SKILLS</Nav.Link>
+            <Nav.Link href="#skills">SKILLS</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -7,7 +7,7 @@ import "./Project.scss";
 
 function Project() {
   return (
-    <div className="project">
+    <div className="project" id="projects">
       <h2>Projects</h2>
       <div className="project__cards">
         <Cards

@@ -8,7 +8,7 @@ function Skill() {
     <div className="skill">
       <h1>Skills</h1>
 
-      <div className="sections">
+      <div className="sections" id="skills">
         <div className="front__end">
           <p>Front End</p>
           <FlipCard img="/images/skill/front/html.PNG" tag="HTML"></FlipCard>
