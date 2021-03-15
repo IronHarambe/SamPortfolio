@@ -8,6 +8,8 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
     .intro {
       letter-spacing: 2px;
@@ -33,6 +35,40 @@
       p {
         margin: 10px;
         padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 844px) {
+  .about {
+    // Wrapper for about section
+    .wrapper {
+      .biography {
+        max-width: 800px;
+        p{
+          font-size: 1.1em;
+        }
+      }
+
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .about {
+    // Wrapper for about section
+    .wrapper {
+      .intro{
+        .about__img{
+          height: 220px;
+        }
+      }
+      .biography {
+        p{
+          font-size: 1.4em;
+        }
       }
     }
   }
