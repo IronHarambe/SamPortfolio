@@ -5,12 +5,12 @@ import "./Skill.scss";
 
 function Skill() {
   return (
-    <div className="skill">
+    <div className="skill" id="skills">
       <h1>Skills</h1>
 
-      <div className="sections" id="skills">
+      <div className="sections">
+        <h6>Front End</h6>
         <div className="front__end">
-          <p>Front End</p>
           <FlipCard img="/images/skill/front/html.PNG" tag="HTML"></FlipCard>
           <FlipCard
             img="/images/skill/front/sass.PNG"
@@ -28,19 +28,18 @@ function Skill() {
             img="/images/skill/front/react.PNG"
             tag="REACT & NATIVE"
           ></FlipCard>
-          <FlipCard
-            img="/images/skill/front/firebase.PNG"
-            tag="FIREBASE"
-          ></FlipCard>
         </div>
-
+        <h6>Other</h6>
         <div className="other">
-          <p>Other</p>
           <FlipCard
             img="/images/skill/other/adobe.PNG"
             tag="ADOBE XD"
           ></FlipCard>
           <FlipCard img="/images/skill/other/git.jpg" tag="GitHub"></FlipCard>
+          <FlipCard
+            img="/images/skill/front/firebase.PNG"
+            tag="FIREBASE"
+          ></FlipCard>
         </div>
       </div>
     </div>
