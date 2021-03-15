@@ -2,7 +2,7 @@
   background-color: aquamarine;
 
   h2 {
-    padding: 1em;
+    padding: 1.8em;
   }
 
   .project__cards {
@@ -10,8 +10,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
     flex-wrap: wrap;
     padding-bottom: 50px;
   }
+}
+
+
+// Media Query
+@media (min-width:940px){
+  .project {
+    .project__cards {
+      gap: 60px;
+    
+    }
+  }
+  
+}
+
+// Media Query
+@media (min-width:1097px){
+  .project {
+    .project__cards {
+      gap: 80px;
+      min-height: 80vh;
+    
+    }
+  }
+  
+}
+
+
+@media (min-width:1227px){
+  .project {
+    .project__cards {
+      gap: 120px;
+      
+     
+    
+    }
+  }
+  
 }
