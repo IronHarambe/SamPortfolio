@@ -1,6 +1,19 @@
 .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
   h2 {
     padding-top: 1.8em;
+   color: #2860c0;
+  }
+
+  .title__bar{
+    background: #2860c0;
+    height: 4px;
+    width: 70px;
+   
   }
 
   // Wrapper for about section
@@ -8,8 +21,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
     gap: 50px;
     .intro {
       letter-spacing: 2px;

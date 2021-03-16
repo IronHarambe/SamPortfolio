@@ -5,7 +5,16 @@
   align-items: center;
 
   h1 {
-    padding: 1.8em;
+    padding-top: 1.8em;
+    color: #2860c0;
+  }
+
+  .title__bar{
+    background: #2860c0;
+    height: 4px;
+    width: 70px;
+    margin-bottom: 4em;
+   
   }
 
   .sections {
@@ -13,7 +22,11 @@
     flex-direction: column;
     justify-content: center;
     gap: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+
+    h6{
+      font-size: 1.3em;
+    }
 
     .front__end,
     .other {
@@ -30,7 +43,7 @@
 @media (min-width: 768px){
   .skill{
     .sections{
-      padding-bottom: 60px;
+      padding-bottom: 120px;
       
    
 

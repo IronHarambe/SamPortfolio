@@ -9,6 +9,7 @@ function About() {
   return (
     <div className="about" id="about">
       <h2>About</h2>
+      <div className="title__bar"></div>
       <div className="wrapper">
         <div className="intro">
           <img src="/images/me.jpg" alt="about__img" className="about__img" />

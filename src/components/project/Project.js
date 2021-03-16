@@ -9,6 +9,7 @@ function Project() {
   return (
     <div className="project" id="projects">
       <h2>Projects</h2>
+      <div className="title__bar"></div>
       <div className="project__cards">
         <Cards
           title="V+R"

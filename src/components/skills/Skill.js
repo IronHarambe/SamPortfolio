@@ -7,7 +7,7 @@ function Skill() {
   return (
     <div className="skill" id="skills">
       <h1>Skills</h1>
-
+      <div className="title__bar"></div>
       <div className="sections">
         <h6>Front End</h6>
         <div className="front__end">

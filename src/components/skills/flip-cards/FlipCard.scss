@@ -50,3 +50,22 @@
     }
   }
 }
+
+
+// Media Query
+@media (min-width: 900px){
+  .flip__card{
+    height: 130px;
+    width: 130px;
+
+    .inner{
+      .front{
+        img{
+          height: 130px;
+          width: 130px;
+        }
+      }
+    }
+
+  }
+}
